@@ -1,0 +1,24 @@
+# Ambiente virtual
+venv/
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+output/
+*.log
+
+# Dados
+data/
+
+# IDEs
+.idea/
